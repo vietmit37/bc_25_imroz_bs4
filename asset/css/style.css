@@ -1296,3 +1296,14 @@ footer {
   }
   /* testimonial end*/
 }
+@media (max-width: 450px) {
+  .about__choose nav label {
+    margin: 3px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 325px) {
+  .about__choose nav label {
+    font-size: 6px;
+  }
+}
