@@ -239,7 +239,7 @@ header {
   top: 0;
   left: 90px;
   transform: translate(-100px, 0);
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .modal-header {
   padding: 3rem 2rem;
@@ -251,12 +251,14 @@ header {
   font-size: 4rem;
   line-height: 56px;
 }
-.modal-body {
-  padding: 3rem 2rem;
+.modal-body .popup {
+  width: 103.5%;
 }
 .card {
   border: none;
   border-bottom: 1px solid #e6e6e6;
+  padding: 0 2rem;
+  border-radius: unset;
 }
 .card-header {
   background-color: transparent;
@@ -273,19 +275,6 @@ header {
   font-size: 16px;
   font-weight: 600;
 }
-/* .drdwn a::after {
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 7px 7px 0 7px;
-  border-color: #1f1f25 transparent transparent transparent;
-  position: absolute;
-  content: "";
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-} */
 .arrow__nav {
   width: 0;
   height: 0;
@@ -309,7 +298,6 @@ header {
 a.btn.btn-link {
   margin: 1rem 0;
 }
-
 .card .sub {
   padding-left: 20px;
 }
